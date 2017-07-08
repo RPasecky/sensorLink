@@ -68,11 +68,19 @@ I'm sure you can come up with something more interesting...just remember to upda
 #### Set up your iPhone!
    1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'.
    
+   <img src="(./iPhone_Swift/setupXcode.png"
+   alt="get your app ready to compile" width="400"/>
+   
+   <img src="(./iPhone_Swift/fillInfo.png "
+   alt="Ifill in your app info" width="400"/>
+   
+   <img src="(./iPhone_Swift/downloadPlist.png "
+   alt="download the google plist to connect to firebase" width="400"/>
+   
+   
    2. in the terminal in the 'iPhone_Swift' directory
    
-   ![alt text](./iPhone_Swift/fillInfo.png "fill in your app info")
-   
-   ![alt text](./iPhone_Swift/downloadPlist.png "download the google plist to connect to firebase")
+  
     
 
 
