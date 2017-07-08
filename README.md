@@ -17,7 +17,7 @@ I created a quick demo circuit with the following schematic just to show the two
 I'm sure you can come up with something more interesting...just remember to update the code accordingly! See the customization section for a more detailed walkthrough.
     
     
-####Get a Firebase!
+#### Get a Firebase!
     
 It's easy, [sign up here](https://firebase.google.com/). Once set up, we need some info from firebase:
 1. Click the ⚙️ -> Project Settings.
@@ -31,14 +31,14 @@ It's easy, [sign up here](https://firebase.google.com/). Once set up, we need so
 With all that in order, lets set up the Raspberry Pi to start sending and recieving signals from your phone.
     
 
-####Set up your Pi!
+#### Set up your Pi!
 1.Install pyrebase on your Raspberry Pi's python 3 instance:
     
     '''   
         sudo pip3 install pyrebase
     '''
     
-######Warning: this could take a while, especially if your are running on a Pi Zero W like myself.
+###### Warning: this could take a while, especially if your are running on a Pi Zero W like myself.
     
 2. While that's going, open up your 'RPy_python/pushReadings.py' script. There should be a section at the top that looks like this:
     
@@ -55,7 +55,7 @@ Fill it out with the information you gathered earlier. Sweet, now your raspberry
     
 3. When pyrebase is successfully installed, run the script  'RPy_python/pushReadings.py' on your Raspberry pi.
     
-####Set up your iPhone!
+#### Set up your iPhone!
 1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Note, this project depends on firebase, if your are running into import errors, just run
     
    '''
