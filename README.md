@@ -69,7 +69,7 @@ I'm sure you can come up with something more interesting...just remember to upda
    1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'.
    
    <img src="./iPhone_Swift/setupXcode.png"
-   alt="get your app ready to compile" width="400"/>
+   alt="get your app ready to compile" width="650"/>
    
    <img src="./iPhone_Swift/fillInfo.png "
    alt="Ifill in your app info" width="400"/>
