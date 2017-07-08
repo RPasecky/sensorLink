@@ -49,7 +49,7 @@ I'm sure you can come up with something more interesting...just remember to upda
     
    ###### Warning: this could take a while, especially if your are running on a Pi Zero W like myself.
     
-2. While that's going, open up your 'RPy_python/pushReadings.py' script. There should be a section at the top that looks like this:
+   2. While that's going, open up your 'RPy_python/pushReadings.py' script. There should be a section at the top that looks like this:
 
     ```python
     config = {
@@ -62,16 +62,13 @@ I'm sure you can come up with something more interesting...just remember to upda
     
     
    Fill it out with the information you gathered earlier. Sweet, now your raspberry pi is ready to start speaking with your iphone.
-
-3. When pyrebase is successfully installed, run the script  'RPy_python/pushReadings.py' on your Raspberry pi.
+   
+   3. When pyrebase is successfully installed, run the script  'RPy_python/pushReadings.py' on your Raspberry pi.
     
 #### Set up your iPhone!
-1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Note, this project depends on firebase, if your are running into import errors, just run
-    
-   ```
-    pod install
-   ```
-        
+   1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'.
+   
+   2. 
    in the terminal in the 'iPhone_Swift' directory
     
     
