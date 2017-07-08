@@ -34,22 +34,23 @@ With all that in order, lets set up the Raspberry Pi to start sending and reciev
 #### Set up your Pi!
 1.Install pyrebase on your Raspberry Pi's python 3 instance:
     
-    '''   
-        sudo pip3 install pyrebase
-    '''
+    
+    sudo pip3 install pyrebase
+        
     
 ###### Warning: this could take a while, especially if your are running on a Pi Zero W like myself.
     
 2. While that's going, open up your 'RPy_python/pushReadings.py' script. There should be a section at the top that looks like this:
-    
-    '''python
+
+    ```python
     config = {
-    "apiKey": "apiKey",
+    apiKey": "apiKey",
     "authDomain": "projectId.firebaseapp.com",
     "databaseURL": "https://databaseName.firebaseio.com",
     "storageBucket": "projectId.appspot.com"
     }
-    '''
+    ```
+    
         
 Fill it out with the information you gathered earlier. Sweet, now your raspberry pi is ready to start speaking with your iphone.
     
@@ -58,9 +59,9 @@ Fill it out with the information you gathered earlier. Sweet, now your raspberry
 #### Set up your iPhone!
 1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Note, this project depends on firebase, if your are running into import errors, just run
     
-   '''
+   ```
     pod install
-   '''
+   ```
         
 in the terminal in the 'iPhone_Swift' directory
     
