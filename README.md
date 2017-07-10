@@ -1,5 +1,5 @@
 # sensorLink
-This is a quick implementation of a cloud connection for IOT Sensors with a native Swift iOS app. Firebase is your friend for prototyping.
+This is a quick implementation of a native Swift iOS app paired with RPi Sensors through the magic of Firebase. Using this you could allow 1000 people to control a light switch or ping 1000 people everytime the sun goes down. The world is yours.
 
 
 The respository is split into two parts: an python3/Rpi portion and a swift/iOS portion.
@@ -24,7 +24,6 @@ The schematic below includes a touch sensor and an LED, the first for sending a 
 IMAGE
 
 I'm sure you can come up with something more interesting...just remember to update the code accordingly! See the customization section for a more detailed walkthrough.
-    
     
 #### Get a Firebase!
     
@@ -66,19 +65,29 @@ I'm sure you can come up with something more interesting...just remember to upda
    3. When pyrebase is successfully installed, run the script  'RPy_python/pushReadings.py' on your Raspberry pi.
     
 #### Set up your iPhone!
-   1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'.
+   1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Inside you want to make sure to set the developer account and create a unique bundle ID as shown in the image below:
    
    <img src="./iPhone_Swift/setupXcode.png"
    alt="get your app ready to compile" width="800"/>
    
+   
+   2. Next we have to go back to the Firebase console to download the configuration file for our Swift app. 
+    - Open up your firebase console
+    - Click 'Add an app'
+    - Select iOS 
+    - Fill in the information below using the Bundle ID you just created
    <img src="./iPhone_Swift/fillInfo.png "
    alt="Ifill in your app info" width="400"/>
    
+   
+   - Once your app is created, click to download your google p-list. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
    <img src="./iPhone_Swift/downloadPlist.png "
    alt="download the google plist to connect to firebase" width="400"/>
    
    
-   2. in the terminal in the 'iPhone_Swift' directory
+   
+   
+   3. From there you should be ready to roll. Build the app and enjoy!
    
   
     
