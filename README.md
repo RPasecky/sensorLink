@@ -1,14 +1,23 @@
 # sensorLink
-This is a quick implementation of a native Swift iOS app paired with RPi Sensors through the magic of Firebase. Using this you could allow 1000 people to control a light switch or ping 1000 people everytime the sun goes down. The world is yours.
+This is a quick implementation of a native Swift iOS app paired with RPi Sensors through the magic of Firebase. Using this respository, you could allow 1000 people to control a light switch at the same time, or tell everyone in your contact list exactly when you are feeling bloated. The world is yours.
 
 
-The respository is split into two parts: an python3/Rpi portion and a swift/iOS portion.
+## Before You Start:
 
+Getting your raspberry pi and your swift app to speak to each other is surprisingly simple, however there is a fair amount of administrative work to be done before setting up the connection. 
 
+To get this to work you need a few things:
+
+1. A Raspberry Pi
+2. Touch sensor/LEDs/Circuit prototyping tools
+3. Xcode [Preferably with a developers account](https://developer.apple.com/)
+4. A Firebase account
+
+Once you have those on hand, lets get this contraption up and running.
 
 ## Get it Working:
 
-Getting your raspberry pi and your swift app to speak to each other is surprisingly simple, however there is a fair amount of administrative work to be done before setting up the connection. This section of the guide will walk you through the steps of:
+ This section of the guide will walk you through the steps of:
 
 1. Setting up your circuit
 2. Setting up your Firebase
@@ -40,7 +49,7 @@ I'm sure you can come up with something more interesting...just remember to upda
 
 
 #### Set up your Pi!
-   1.Install pyrebase on your Raspberry Pi's python 3 instance:
+   1. Start off by installing pyrebase into your Raspberry Pi's python 3 installation of choice:
 
     
         sudo pip3 install pyrebase
@@ -58,12 +67,26 @@ I'm sure you can come up with something more interesting...just remember to upda
     "storageBucket": "projectId.appspot.com"
     }
 ```
-    
-    
-   Fill it out with the information you gathered earlier. Sweet, now your raspberry pi is ready to start speaking with your iphone.
+  
+   Fill it out with the information you gathered earlier and save. 
    
-   3. When pyrebase is successfully installed, run the script  'RPy_python/pushReadings.py' on your Raspberry pi.
+   3. When pyrebase is successfully installed, run the script  'RPy_python/pushReadings.py' on your Raspberry pi. Now your raspberry pi is ready to start speaking with your Firebase.
+
+   4. Test your script. 
+
+      - Open up your Firebase Console and navigate to the Firebase Database. Try pressing the touch sensor and see if the value in your database changes with your touch. If so you're on the right track
+
+      <img src="./iPhone_Swift/lightOn.png "
+   alt="download the google plist to connect to firebase" width="400"/>
+
+      - Try manually changing the 'light' value in your firebase. Does that turn the LED in your circuit on and off? If so, great! Let's move on to setting up the iOS side of things. 
+
+      <img src="./iPhone_Swift/lightOff.png "
+   alt="download the google plist to connect to firebase" width="400"/>
+
+
     
+
 #### Set up your iPhone!
    1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Inside you want to make sure to set the developer account and create a unique bundle ID as shown in the image below:
    
@@ -76,6 +99,7 @@ I'm sure you can come up with something more interesting...just remember to upda
     - Click 'Add an app'
     - Select iOS 
     - Fill in the information below using the Bundle ID you just created
+
    <img src="./iPhone_Swift/fillInfo.png "
    alt="Ifill in your app info" width="400"/>
    
@@ -85,7 +109,11 @@ I'm sure you can come up with something more interesting...just remember to upda
    <img src="./iPhone_Swift/downloadPlist.png "
    alt="download the google plist to connect to firebase" width="400"/>
    
-   3. From there you should be ready to roll. Build the app and enjoy!
+   3. From there you should be ready to roll. Build the app and give it a try!
+
+
+#### Closing thoughts
+    If your circuit is set up correctly and you successfully integrated Firebase into both your Swift and Python projects, you should be able to communicate back and forth just by overwriting specific values in your database. Of course, this is a ton more you could do with this if you're interested. 
    
   
     
