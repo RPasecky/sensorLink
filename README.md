@@ -31,7 +31,7 @@ You may need to create a Firebase account if you don't already have one.
 The schematic below includes a touch sensor and an LED, the first for sending a signal, the second for displaying a recieved signal:
 
 <img src="./Images/circuitDiagram.jpg "
-   alt="download the google plist to connect to firebase" width="400"/>
+   alt="download the google plist to connect to firebase" width="800"/>
 
 IMAGE
 
