@@ -13,6 +13,7 @@
 		E31E3D731EB5C6EE0035C992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E3D711EB5C6EE0035C992 /* Main.storyboard */; };
 		E31E3D751EB5C6EE0035C992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31E3D741EB5C6EE0035C992 /* Assets.xcassets */; };
 		E31E3D781EB5C6EE0035C992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E3D761EB5C6EE0035C992 /* LaunchScreen.storyboard */; };
+		E3700FB11F1AC8B600B8B308 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3700FB01F1AC8B600B8B308 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E31E3D741EB5C6EE0035C992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31E3D771EB5C6EE0035C992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E31E3D791EB5C6EE0035C992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3700FB01F1AC8B600B8B308 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E31E3D711EB5C6EE0035C992 /* Main.storyboard */,
 				E31E3D741EB5C6EE0035C992 /* Assets.xcassets */,
 				E31E3D761EB5C6EE0035C992 /* LaunchScreen.storyboard */,
+				E3700FB01F1AC8B600B8B308 /* GoogleService-Info.plist */,
 				E31E3D791EB5C6EE0035C992 /* Info.plist */,
 			);
 			path = "My Sensor Net";
@@ -123,6 +126,7 @@
 				TargetAttributes = {
 					E31E3D691EB5C6EE0035C992 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q69A459835;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31E3D781EB5C6EE0035C992 /* LaunchScreen.storyboard in Resources */,
+				E3700FB11F1AC8B600B8B308 /* GoogleService-Info.plist in Resources */,
 				E31E3D751EB5C6EE0035C992 /* Assets.xcassets in Resources */,
 				E31E3D731EB5C6EE0035C992 /* Main.storyboard in Resources */,
 			);
@@ -338,11 +343,11 @@
 			baseConfigurationReference = A1E5414F704349A586E2EFD8 /* Pods-My Sensor Net.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q69A459835;
 				INFOPLIST_FILE = "My Sensor Net/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fakeBundleID;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wegwerfianApps.sensorNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -353,11 +358,11 @@
 			baseConfigurationReference = 4FEC45E559E6F5260A84A9BA /* Pods-My Sensor Net.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = Q69A459835;
 				INFOPLIST_FILE = "My Sensor Net/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fakeBundleID;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wegwerfianApps.sensorNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

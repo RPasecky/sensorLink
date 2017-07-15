@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.16"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -125,7 +125,7 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DFo-7z-SJn">
-                                <rect key="frame" x="87" y="508" width="200" height="70"/>
+                                <rect key="frame" x="87" y="474" width="200" height="70"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="5fl-12-SqR">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="70"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
                                                             <color key="titleColor" red="0.98823529409999999" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="didGoOutside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fqh-Tj-YTk"/>
+                                                            <action selector="toggleSwitch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AfZ-c6-nkb"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -179,7 +179,7 @@
                             <constraint firstItem="ibK-dg-cS3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="UDq-TL-2Lp"/>
                             <constraint firstItem="49j-Jr-ohn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="bk2-6y-uKm"/>
                             <constraint firstItem="49j-Jr-ohn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dPJ-oC-viy"/>
-                            <constraint firstItem="DFo-7z-SJn" firstAttribute="top" secondItem="gI0-vg-xqV" secondAttribute="bottom" constant="154" id="egr-fu-Rm3"/>
+                            <constraint firstItem="DFo-7z-SJn" firstAttribute="top" secondItem="gI0-vg-xqV" secondAttribute="bottom" constant="120" id="egr-fu-Rm3"/>
                             <constraint firstItem="ibK-dg-cS3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-20" id="g2U-yG-nBY"/>
                             <constraint firstItem="gI0-vg-xqV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="xCJ-03-tpL"/>
                         </constraints>
@@ -187,8 +187,8 @@
                     <connections>
                         <outlet property="buttonHorizontalOffset" destination="I1N-YQ-Ry5" id="JkQ-lY-Xhb"/>
                         <outlet property="dateLabel" destination="m0C-Ev-feH" id="VfJ-Xi-geW"/>
-                        <outlet property="didGoOutsideButton" destination="Fuq-Zk-6cq" id="Icu-4b-mlO"/>
                         <outlet property="readingLabel" destination="hJC-hl-JsK" id="v6u-m8-IDi"/>
+                        <outlet property="toggleSwitchButton" destination="Fuq-Zk-6cq" id="7mC-VY-fWP"/>
                         <outlet property="totalExposureView" destination="gI0-vg-xqV" id="Ckw-Ae-vtp"/>
                     </connections>
                 </viewController>

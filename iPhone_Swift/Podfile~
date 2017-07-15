@@ -8,4 +8,6 @@ target 'My Sensor Net' do
   # Pods for sensorAPP
   pod 'Firebase/Core'
   pod 'Firebase/Database'
+  pod 'Charts'
+
 end

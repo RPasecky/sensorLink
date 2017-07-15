@@ -1,7 +1,4 @@
 PODS:
-  - Charts (3.0.2):
-    - Charts/Core (= 3.0.2)
-  - Charts/Core (3.0.2)
   - Firebase/Core (4.0.3):
     - FirebaseAnalytics (= 4.0.2)
     - FirebaseCore (= 4.0.3)
@@ -23,12 +20,10 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
 
 DEPENDENCIES:
-  - Charts
   - Firebase/Core
   - Firebase/Database
 
 SPEC CHECKSUMS:
-  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
   Firebase: 9e33fdfbca37cab635c693883caa90a4475b842b
   FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
   FirebaseCore: c709067051de07bdaffdc4e735cd7299a23c463a
@@ -36,6 +31,6 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
 
-PODFILE CHECKSUM: 3e1a9f2844ce692eeb60af7b06439bd27048990f
+PODFILE CHECKSUM: 5a6c9c1269764e09f30a5f091d1c0b8621c374ca
 
 COCOAPODS: 1.1.1

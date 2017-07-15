@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Charts.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +22,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B4EB6F2D849FA9729A43E37CCAB4AEBA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F307B842FF76B2DE6C55DB67C0885325</key>
+		<key>FA730761A12669C082FB5119BAEC3C09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

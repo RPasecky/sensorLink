@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B4EB6F2D849FA9729A43E37CCAB4AEBA"
+               BlueprintIdentifier = "FA730761A12669C082FB5119BAEC3C09"
                BuildableName = "Pods_My_Sensor_Net.framework"
                BlueprintName = "Pods-My Sensor Net"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,7 +26,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -37,7 +36,6 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -47,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B4EB6F2D849FA9729A43E37CCAB4AEBA"
+            BlueprintIdentifier = "FA730761A12669C082FB5119BAEC3C09"
             BuildableName = "Pods_My_Sensor_Net.framework"
             BlueprintName = "Pods-My Sensor Net"
             ReferencedContainer = "container:Pods.xcodeproj">

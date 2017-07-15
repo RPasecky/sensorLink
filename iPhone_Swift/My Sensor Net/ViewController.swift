@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import FirebaseDatabase
-
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -21,10 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet var dateLabel: UILabel!
     @IBOutlet var readingLabel: UILabel!
     @IBOutlet var totalExposureView: UIVisualEffectView!
-    @IBOutlet var didGoOutsideButton: UIButton!
     @IBOutlet var buttonHorizontalOffset: NSLayoutConstraint!
-    @IBAction func didGoOutside(_ sender: Any) {
-        
+    @IBOutlet var toggleSwitchButton: UIButton!
+    @IBAction func toggleSwitch(_ sender: Any) {
         toggleSwitch()
     }
     
@@ -70,10 +68,10 @@ class ViewController: UIViewController {
         if let currentReading = lightOn {
             if currentReading == "off" {
                 self.ref.child("light").child("switch").setValue("on")
-                didGoOutsideButton.titleLabel?.text = "on"
+                //didGoOutsideButton.titleLabel?.text = "on"
             } else if currentReading == "on" {
                 self.ref.child("light").child("switch").setValue("off")
-                didGoOutsideButton.titleLabel?.text = "on"
+
             }
         }
         
