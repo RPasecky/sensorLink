@@ -1,7 +1,7 @@
 # sensorLink
 This is a quick implementation of a native Swift iOS app paired with RPi Sensors through the magic of Firebase. Using this respository, you could allow 1000 people to control a light switch at the same time, or tell everyone in your contact list exactly when you are feeling bloated. The world is yours.
 
-#### User your phone to control your RPi GPIO
+#### Use your phone to control your RPi GPIO
 
 ![Two way communication between pi and iphone](./Images/lightSwitch.gif)
 
@@ -97,7 +97,7 @@ I'm sure you can come up with something more interesting...just remember to upda
     
 
 #### Set up your iPhone!
-   1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Inside you want to make sure to set the developer account and create a unique bundle ID as shown in the image below:
+   1. Open the provided xcode project 'iPhone_Swift/My Sensor Net.workspace'. Inside you want to make sure to set the developer account and create a unique bundle ID as shown in the image below:
    
    <img src="./Images/setupXcode.png"
    alt="get your app ready to compile" width="800"/>
