@@ -50,7 +50,7 @@ I'm sure you can come up with something more interesting...just remember to upda
     
    2. While that's going, open up your 'RPy_python/pushReadings.py' script. There should be a section at the top that looks like this:
 
-    ```python
+    ``` python
     config = {
     apiKey": "apiKey",
     "authDomain": "projectId.firebaseapp.com",
@@ -81,11 +81,9 @@ I'm sure you can come up with something more interesting...just remember to upda
    
    
    - Once your app is created, click to download your google p-list. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
+
    <img src="./iPhone_Swift/downloadPlist.png "
    alt="download the google plist to connect to firebase" width="400"/>
-   
-   
-   
    
    3. From there you should be ready to roll. Build the app and enjoy!
    
