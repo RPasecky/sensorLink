@@ -30,6 +30,9 @@ You may need to create a Firebase account if you don't already have one.
 
 The schematic below includes a touch sensor and an LED, the first for sending a signal, the second for displaying a recieved signal:
 
+<img src="./Images/circuitDiagram.jpg "
+   alt="download the google plist to connect to firebase" width="400"/>
+
 IMAGE
 
 I'm sure you can come up with something more interesting...just remember to update the code accordingly! See the customization section for a more detailed walkthrough.
@@ -76,12 +79,12 @@ I'm sure you can come up with something more interesting...just remember to upda
 
       - Open up your Firebase Console and navigate to the Firebase Database. Try pressing the touch sensor and see if the value in your database changes with your touch. If so you're on the right track
 
-      <img src="./iPhone_Swift/lightOn.png "
+      <img src="./Images/lightOn.png "
    alt="download the google plist to connect to firebase" width="400"/>
 
       - Try manually changing the 'light' value in your firebase. Does that turn the LED in your circuit on and off? If so, great! Let's move on to setting up the iOS side of things. 
 
-      <img src="./iPhone_Swift/lightOff.png "
+      <img src="./Images/lightOff.png "
    alt="download the google plist to connect to firebase" width="400"/>
 
 
@@ -90,7 +93,7 @@ I'm sure you can come up with something more interesting...just remember to upda
 #### Set up your iPhone!
    1. Open the provided xcode project 'iPhone_Swift/My Sensor Net'. Inside you want to make sure to set the developer account and create a unique bundle ID as shown in the image below:
    
-   <img src="./iPhone_Swift/setupXcode.png"
+   <img src="./Images/setupXcode.png"
    alt="get your app ready to compile" width="800"/>
    
    
@@ -100,13 +103,13 @@ I'm sure you can come up with something more interesting...just remember to upda
     - Select iOS 
     - Fill in the information below using the Bundle ID you just created
 
-   <img src="./iPhone_Swift/fillInfo.png "
+   <img src="./Images/fillInfo.png "
    alt="Ifill in your app info" width="400"/>
    
    
    - Once your app is created, click to download your google p-list. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
 
-   <img src="./iPhone_Swift/downloadPlist.png "
+   <img src="./Images/downloadPlist.png "
    alt="download the google plist to connect to firebase" width="400"/>
    
    3. From there you should be ready to roll. Build the app and give it a try!
