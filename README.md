@@ -50,14 +50,14 @@ I'm sure you can come up with something more interesting...just remember to upda
     
    2. While that's going, open up your 'RPy_python/pushReadings.py' script. There should be a section at the top that looks like this:
 
-    ``` python
+``` python
     config = {
     apiKey": "apiKey",
     "authDomain": "projectId.firebaseapp.com",
     "databaseURL": "https://databaseName.firebaseio.com",
     "storageBucket": "projectId.appspot.com"
     }
-    ```
+```
     
     
    Fill it out with the information you gathered earlier. Sweet, now your raspberry pi is ready to start speaking with your iphone.
