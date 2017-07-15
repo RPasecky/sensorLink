@@ -1,6 +1,13 @@
 # sensorLink
 This is a quick implementation of a native Swift iOS app paired with RPi Sensors through the magic of Firebase. Using this respository, you could allow 1000 people to control a light switch at the same time, or tell everyone in your contact list exactly when you are feeling bloated. The world is yours.
 
+#### User your phone to control your RPi GPIO
+<img src="./Images/lightSwitch.gif "
+   alt="Two way communication between pi and iphone" width="800"/>
+
+#### Control your iPhone with your Raspberry Pi
+<img src="./Images/touchSensor.gif "
+   alt="Two way communication between pi and iphone" width="800"/>
 
 ## Before You Start:
 
@@ -33,7 +40,6 @@ The schematic below includes a touch sensor and an LED, the first for sending a 
 <img src="./Images/circuitDiagram.jpg "
    alt="download the google plist to connect to firebase" width="800"/>
 
-IMAGE
 
 I'm sure you can come up with something more interesting...just remember to update the code accordingly! See the customization section for a more detailed walkthrough.
     
@@ -116,7 +122,7 @@ I'm sure you can come up with something more interesting...just remember to upda
 
 
 #### Closing thoughts
-    If your circuit is set up correctly and you successfully integrated Firebase into both your Swift and Python projects, you should be able to communicate back and forth just by overwriting specific values in your database. Of course, this is a ton more you could do with this if you're interested. 
+   If your circuit is set up correctly and you successfully integrated Firebase into both your Swift and Python projects, you should be able to communicate back and forth just by overwriting specific values in your database. Of course, this is a ton more you could do with this if you're interested. 
    
   
     
