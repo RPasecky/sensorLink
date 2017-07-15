@@ -38,7 +38,7 @@ You may need to create a Firebase account if you don't already have one.
 The schematic below includes a touch sensor and an LED, the first for sending a signal, the second for displaying a recieved signal:
 
 <img src="./Images/circuitDiagram.jpg "
-   alt="download the google plist to connect to firebase" width="800"/>
+   alt="download the Google plist to connect to firebase" width="800"/>
 
 
 I'm sure you can come up with something more interesting...just remember to update the code accordingly! See the customization section for a more detailed walkthrough.
@@ -86,12 +86,12 @@ I'm sure you can come up with something more interesting...just remember to upda
       - Open up your Firebase Console and navigate to the Firebase Database. Try pressing the touch sensor and see if the value in your database changes with your touch. If so you're on the right track
 
       <img src="./Images/lightOn.png "
-   alt="download the google plist to connect to firebase" width="400"/>
+   alt="download the Google Plist to connect to firebase" width="400"/>
 
       - Try manually changing the 'light' value in your firebase. Does that turn the LED in your circuit on and off? If so, great! Let's move on to setting up the iOS side of things. 
 
       <img src="./Images/lightOff.png "
-   alt="download the google plist to connect to firebase" width="400"/>
+   alt="download the Google Plist to connect to firebase" width="400"/>
 
 
     
@@ -113,10 +113,10 @@ I'm sure you can come up with something more interesting...just remember to upda
    alt="Ifill in your app info" width="400"/>
    
    
-   - Once your app is created, click to download your google Plist. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
+   - Once your app is created, click to download your Google Plist. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
 
    <img src="./Images/downloadPlist.png "
-   alt="download the google plist to connect to firebase" width="400"/>
+   alt="download the Google Plist to connect to firebase" width="400"/>
    
    3. From there you should be ready to roll. Build the app and give it a try!
 
