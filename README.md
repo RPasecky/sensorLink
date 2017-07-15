@@ -2,12 +2,12 @@
 This is a quick implementation of a native Swift iOS app paired with RPi Sensors through the magic of Firebase. Using this respository, you could allow 1000 people to control a light switch at the same time, or tell everyone in your contact list exactly when you are feeling bloated. The world is yours.
 
 #### User your phone to control your RPi GPIO
-<img src="./Images/lightSwitch.gif "
-   alt="Two way communication between pi and iphone" width="800"/>
+
+![Two way communication between pi and iphone](./Images/lightSwitch.gif)
 
 #### Control your iPhone with your Raspberry Pi
-<img src="./Images/touchSensor.gif "
-   alt="Two way communication between pi and iphone" width="800"/>
+
+![Two way communication between pi and iphone](./Images/touchSensor.gif)
 
 ## Before You Start:
 
