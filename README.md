@@ -10,7 +10,7 @@ To get this to work you need a few things:
 
 1. A Raspberry Pi
 2. Touch sensor/LEDs/Circuit prototyping tools
-3. Xcode [Preferably with a developers account](https://developer.apple.com/)
+3. Xcode [(Preferably with a developers account)](https://developer.apple.com/programs/)
 4. A Firebase account
 
 Once you have those on hand, lets get this contraption up and running.
