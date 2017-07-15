@@ -113,7 +113,7 @@ I'm sure you can come up with something more interesting...just remember to upda
    alt="Ifill in your app info" width="400"/>
    
    
-   - Once your app is created, click to download your google p-list. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
+   - Once your app is created, click to download your google Plist. Drag and drop it into your Xcode project. This will be used to point your swift app to the correct firebase. 
 
    <img src="./Images/downloadPlist.png "
    alt="download the google plist to connect to firebase" width="400"/>
