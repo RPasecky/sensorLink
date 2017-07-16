@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A995471AC8427B5744CBAAB2 /* Pods_My_Sensor_Net.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54611847541885C9E212F67A /* Pods_My_Sensor_Net.framework */; };
-		E30E50061F1AE35C00CFE67C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E30E50051F1AE35C00CFE67C /* GoogleService-Info.plist */; };
 		E31E3D6E1EB5C6EE0035C992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E3D6D1EB5C6EE0035C992 /* AppDelegate.swift */; };
 		E31E3D701EB5C6EE0035C992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31E3D6F1EB5C6EE0035C992 /* ViewController.swift */; };
 		E31E3D731EB5C6EE0035C992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31E3D711EB5C6EE0035C992 /* Main.storyboard */; };
@@ -20,7 +19,6 @@
 		4FEC45E559E6F5260A84A9BA /* Pods-My Sensor Net.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Sensor Net.release.xcconfig"; path = "Pods/Target Support Files/Pods-My Sensor Net/Pods-My Sensor Net.release.xcconfig"; sourceTree = "<group>"; };
 		54611847541885C9E212F67A /* Pods_My_Sensor_Net.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Sensor_Net.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E5414F704349A586E2EFD8 /* Pods-My Sensor Net.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Sensor Net.debug.xcconfig"; path = "Pods/Target Support Files/Pods-My Sensor Net/Pods-My Sensor Net.debug.xcconfig"; sourceTree = "<group>"; };
-		E30E50051F1AE35C00CFE67C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../.Trash/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E31E3D6A1EB5C6EE0035C992 /* My Sensor Net.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Sensor Net.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31E3D6D1EB5C6EE0035C992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E31E3D6F1EB5C6EE0035C992 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				E31E3D711EB5C6EE0035C992 /* Main.storyboard */,
 				E31E3D741EB5C6EE0035C992 /* Assets.xcassets */,
 				E31E3D761EB5C6EE0035C992 /* LaunchScreen.storyboard */,
-				E30E50051F1AE35C00CFE67C /* GoogleService-Info.plist */,
 				E31E3D791EB5C6EE0035C992 /* Info.plist */,
 			);
 			path = "My Sensor Net";
@@ -155,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31E3D781EB5C6EE0035C992 /* LaunchScreen.storyboard in Resources */,
-				E30E50061F1AE35C00CFE67C /* GoogleService-Info.plist in Resources */,
 				E31E3D751EB5C6EE0035C992 /* Assets.xcassets in Resources */,
 				E31E3D731EB5C6EE0035C992 /* Main.storyboard in Resources */,
 			);
