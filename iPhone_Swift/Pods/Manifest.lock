@@ -1,4 +1,6 @@
 PODS:
+  - Firebase/Analytics (4.0.3):
+    - Firebase/Core
   - Firebase/Core (4.0.3):
     - FirebaseAnalytics (= 4.0.2)
     - FirebaseCore (= 4.0.3)
@@ -20,6 +22,7 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
 
 DEPENDENCIES:
+  - Firebase/Analytics
   - Firebase/Core
   - Firebase/Database
 
@@ -31,6 +34,6 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
 
-PODFILE CHECKSUM: 5a6c9c1269764e09f30a5f091d1c0b8621c374ca
+PODFILE CHECKSUM: 6dfb37c7c7cb9f5983282f5d20e14dbe8277f0b8
 
 COCOAPODS: 1.1.1
