@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     var ref: DatabaseReference!
     var visualEffectView: UIVisualEffectView?
     var lightOn : String?
-    
+    var currentlyTouching : String?
     
     
     @IBOutlet var dateLabel: UILabel!
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
                     let child1 = item1 as! DataSnapshot
                     
                     if child1.key == "currentlyTouching" {
-                        returnedValue = String(describing: child1.value!)
+                        self.currentlyTouching = String(describing: child1.value!)
                     }
                     
                     if child1.key == "switch" {
@@ -57,8 +57,16 @@ class ViewController: UIViewController {
                 }
             }
             
+            if self.lightOn == nil {
+                self.ref.child("light").child("switch").setValue("off")
+            }
+            
+            if self.currentlyTouching == nil {
+                self.ref.child("touch").child("currentlyTouching").setValue("false")
+            }
+            
             self.dateLabel.text = self.lightOn
-            self.readingLabel.text = returnedValue
+            self.readingLabel.text = self.currentlyTouching
             
         })
     }

@@ -42,11 +42,11 @@ def takeReading(sc):
 	if lastReading != currentReading:
 		if currentReading:
 			print("You are now touching!")
-			data = {"currentlyTouching": "True"}
+			data = {"currentlyTouching": "true"}
 			db.child("touch").update(data)
 		else: 
 			print("You are no longer touching!")
-			data = {"currentlyTouching": "False"}
+			data = {"currentlyTouching": "false"}
 			db.child("touch").update(data)
 		lastReading = currentReading
 
