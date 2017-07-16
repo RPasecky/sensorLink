@@ -126,7 +126,7 @@
 				TargetAttributes = {
 					E31E3D691EB5C6EE0035C992 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = RH3S5J6JJL;
+						DevelopmentTeam = Q69A459835;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -343,7 +343,7 @@
 			baseConfigurationReference = A1E5414F704349A586E2EFD8 /* Pods-My Sensor Net.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RH3S5J6JJL;
+				DEVELOPMENT_TEAM = Q69A459835;
 				INFOPLIST_FILE = "My Sensor Net/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -358,7 +358,7 @@
 			baseConfigurationReference = 4FEC45E559E6F5260A84A9BA /* Pods-My Sensor Net.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = RH3S5J6JJL;
+				DEVELOPMENT_TEAM = Q69A459835;
 				INFOPLIST_FILE = "My Sensor Net/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
