@@ -33,7 +33,7 @@ Once you have those on hand, lets get this contraption up and running.
 
 You may need to create a Firebase account if you don't already have one.
 
-#### Set up your circuit!
+### Set up your circuit!
 
 The schematic below includes a touch sensor and an LED, the first for sending a signal, the second for displaying a recieved signal:
 
@@ -41,9 +41,9 @@ The schematic below includes a touch sensor and an LED, the first for sending a 
    alt="download the Google plist to connect to firebase" width="800"/>
 
 
-I'm sure you can come up with something more interesting...just remember to update the code accordingly! See the customization section for a more detailed walkthrough.
+I'm sure you can come up with something more interesting...just remember to update the code accordingly! 
     
-#### Get a Firebase!
+### Get a Firebase!
     
    It's easy, [sign up here](https://firebase.google.com/). Once set up, we need some info from firebase:
    1. Click the ⚙️ -> Project Settings.
@@ -64,12 +64,10 @@ I'm sure you can come up with something more interesting...just remember to upda
    With all that in order, lets set up the Raspberry Pi to start sending and recieving signals from your phone.
 
 
-#### Set up your Pi!
+### Set up your Pi!
    1. Start off by installing pyrebase into your Raspberry Pi's python 3 installation of choice:
 
-    
-        sudo pip3 install pyrebase
-    
+        sudo pip3 install pyrebase  
     
    ###### Warning: this could take a while, especially if your are running on a Pi Zero W like myself.
     
@@ -103,7 +101,7 @@ I'm sure you can come up with something more interesting...just remember to upda
 
     
 
-#### Set up your iPhone!
+### Set up your iPhone!
    1. Open the provided xcode project 'iPhone_Swift/My Sensor Net.workspace'. Inside you want to make sure to set the developer account and create a unique bundle ID as shown in the image below:
    
    <img src="./Images/setupXcode.png"
@@ -128,8 +126,8 @@ I'm sure you can come up with something more interesting...just remember to upda
    3. From there you should be ready to roll. Build the app and give it a try!
 
 
-#### Closing thoughts
-   If your circuit is set up correctly and you successfully integrated Firebase into both your Swift and Python projects, you should be able to communicate back and forth just by overwriting specific values in your database. Of course, this is a ton more you could do with this if you're interested. 
+### Closing thoughts
+   If your circuit is set up correctly and you successfully integrated Firebase into both your Swift and Python projects, you should be able to communicate back and forth just by overwriting specific values in your database. You can expand this projects to include as many phones and sensors as you want. Automate your house and have a good time.
    
   
     
