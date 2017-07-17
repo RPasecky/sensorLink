@@ -54,9 +54,11 @@ I'm sure you can come up with something more interesting...just remember to upda
    
    4. While you're here, change your database security rules to match the image below :
    
+   <img src="./Images/securityRules.png" alt="dsecurity rules" width="400"/>
+
+
    ###### Note: If you ever plan on using this long term, you absolutely should add in security rules to protect your database from unwanted guests. These settings allow for absolutely anyone with your database name to read and write whatever they want.
    
-   ![security rules](./Images/securityRules.png)
    5. Finally, click Storage and do the same thing. That's your Storage URL.
 
    With all that in order, lets set up the Raspberry Pi to start sending and recieving signals from your phone.
