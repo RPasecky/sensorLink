@@ -13,12 +13,12 @@ class ViewController: UIViewController {
 
     var ref: DatabaseReference!
     var visualEffectView: UIVisualEffectView?
-    var lightOn : String?
+    var LED_On : String?
     var currentlyTouching : String?
     
     
-    @IBOutlet var dateLabel: UILabel!
-    @IBOutlet var readingLabel: UILabel!
+    @IBOutlet var LED_Label: UILabel!
+    @IBOutlet var currentlyTouching_Label: UILabel!
     @IBOutlet var totalExposureView: UIVisualEffectView!
     @IBOutlet var buttonHorizontalOffset: NSLayoutConstraint!
     @IBOutlet var toggleSwitchButton: UIButton!
@@ -37,8 +37,8 @@ class ViewController: UIViewController {
     
     func observeData() {
         ref.observe(.value, with: { snapshot in
-            var returnedKey = String()
-            var returnedValue = String()
+            let returnedKey = String()
+            let returnedValue = String()
             print("key: \(returnedKey) value: \(returnedValue)")
             
             for item0 in snapshot.children {
@@ -51,13 +51,13 @@ class ViewController: UIViewController {
                     }
                     
                     if child1.key == "switch" {
-                        self.lightOn = String(describing: child1.value!)
+                        self.LED_On = String(describing: child1.value!)
                     }
                     
                 }
             }
             
-            if self.lightOn == nil {
+            if self.LED_On == nil {
                 self.ref.child("light").child("switch").setValue("off")
             }
             
@@ -65,24 +65,22 @@ class ViewController: UIViewController {
                 self.ref.child("touch").child("currentlyTouching").setValue("false")
             }
             
-            self.dateLabel.text = self.lightOn
-            self.readingLabel.text = self.currentlyTouching
+            self.LED_Label.text = self.LED_On
+            self.currentlyTouching_Label.text = self.currentlyTouching
             
         })
     }
     
     func toggleSwitch() {
         
-        if let currentReading = lightOn {
+        if let currentReading = LED_On {
             if currentReading == "off" {
                 self.ref.child("light").child("switch").setValue("on")
                 //didGoOutsideButton.titleLabel?.text = "on"
             } else if currentReading == "on" {
                 self.ref.child("light").child("switch").setValue("off")
-
             }
         }
-        
     }
     
     override func didReceiveMemoryWarning() {
