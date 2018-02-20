@@ -67,14 +67,13 @@ class ViewController: UIViewController {
             
             self.LED_Label.text = self.LED_On
             self.currentlyTouching_Label.text = self.currentlyTouching
-            
         })
     }
     
     func toggleSwitch() {
         
         if let currentReading = LED_On {
-            if currentReading == "off" {
+            if currentReading == "off" {   // This could be any type of data
                 self.ref.child("light").child("switch").setValue("on")
                 //didGoOutsideButton.titleLabel?.text = "on"
             } else if currentReading == "on" {
@@ -83,10 +82,6 @@ class ViewController: UIViewController {
         }
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 }
 
 
